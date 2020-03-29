@@ -5,7 +5,8 @@ Curso online de flutter **#quedateencasa**
 
 En este curso se vera desde cero como construir una aplicación móvil con Flutter
 
-##Instalación
+## Instalación
+
 Para la instalación de las herramientas utilizaremos
 * [Flutter SDK](https://flutter.dev/docs/get-started/install) Seguir los pasos de instalación
 * Editor de texto, solo es necesario uno
