@@ -1,22 +1,27 @@
 # Curso Flutter Online 2020
 Curso online de flutter **#quedateencasa**
 
-![](image_readme/image.png)
-
 En este curso se vera desde cero como construir una aplicación móvil con Flutter
 
-## Instalación
+## Dart ejemplos
 
-Para la instalación de las herramientas utilizaremos
-* [Flutter SDK](https://flutter.dev/docs/get-started/install) Seguir los pasos de instalación
-* Editor de texto, solo es necesario uno
-    * [VS Code](https://code.visualstudio.com/download)
-    * [Android Studio](https://developer.android.com/studio)
-* En caso de utilizar VS Code, instalar el [android SDK](https://developer.android.com/studio)
-* Se requerira un emulador de dispositivos Android o utilizar un [dipositivo físico](https://www.jiho.com/es/recuperar-datos/habilitar-usb-depuracion-en-android.html)
+En esta sección veremos una introducción breve del lenguaje de programación dart
 
-Una ves instalado todo, revisar que la instalación este correcta, mediante:
-* Abrir una consola (cmd o powershell en windows) (terminal en linux) y digitar
-```bash
-flutter doctor
-```
+* Básico, nociones básicas del lenguaje
+    * [Inicial](https://github.com/Alvardud/Curso-Flutter-online-2020/blob/dart-ejemplos/dart_ejemplos/inicial.dart)
+    * [Variables](https://github.com/Alvardud/Curso-Flutter-online-2020/blob/dart-ejemplos/dart_ejemplos/variables.dart)
+    * [Operadores](https://github.com/Alvardud/Curso-Flutter-online-2020/blob/dart-ejemplos/dart_ejemplos/operadores.dart)
+    * [Funciones](https://github.com/Alvardud/Curso-Flutter-online-2020/blob/dart-ejemplos/dart_ejemplos/funciones.dart)
+* Específico, pequeña profundización de conceptos
+    * [Colecciones](https://github.com/Alvardud/Curso-Flutter-online-2020/blob/dart-ejemplos/dart_ejemplos/colecciones.dart)
+    * [Excepciones](https://github.com/Alvardud/Curso-Flutter-online-2020/blob/dart-ejemplos/dart_ejemplos/excepciones.dart)
+    * [Funciones de alto orden](https://github.com/Alvardud/Curso-Flutter-online-2020/blob/dart-ejemplos/dart_ejemplos/funcionesAltoOrden.dart)
+* POO (recomendado profundizar por cuenta propia)
+    * [General Objetos](https://github.com/Alvardud/Curso-Flutter-online-2020/blob/dart-ejemplos/dart_ejemplos/POO.dart)
+
+## Uso
+
+Para utilizar y/o probar dichos programas, se puede optar por dos vías, utilizar una herramienta en la web o hacerlo en nuestros propios ordenadores
+
+* [Via web, mediante DartPad](https://dartpad.dev/) **Metodo recomendado**, simplemente es copiar y pegar en la interfaz web
+* [Ordenador Personal](https://dart.dev/tutorials/server/cmdline) **Metodo no recomendado**, instalar dart e inicializar un programa de consola
