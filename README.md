@@ -20,3 +20,8 @@ Una ves instalado todo, revisar que la instalación este correcta, mediante:
 ```bash
 flutter doctor
 ```
+
+## Dart básico
+
+Curso de dart básico para entender el lenguaje
+* [Curso básico](https://github.com/Alvardud/Curso-Flutter-online-2020/tree/dart-ejemplos/dart_ejemplos)
