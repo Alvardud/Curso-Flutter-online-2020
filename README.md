@@ -25,3 +25,7 @@ flutter doctor
 
 Curso de dart básico para entender el lenguaje
 * [Curso básico](https://github.com/Alvardud/Curso-Flutter-online-2020/tree/dart-ejemplos/dart_ejemplos)
+
+## Primera clase
+
+* [Instalación](https://drive.google.com/open?id=1CmagS_Ox3IWVd2PLeBBdF6s_Lv27cV69) instalación de los componentes y herramientas a utilzizar para el curso
