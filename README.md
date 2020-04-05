@@ -36,3 +36,11 @@ En esta clase revisaremos que es un widget, como estos se construyen y que tipos
 
 * [Codigo Fuente](https://github.com/Alvardud/Curso-Flutter-online-2020/tree/segunda_clase) todo el codigo siempre se encuentra en la carpeta lib
 * [Videos de la Clase](https://drive.google.com/open?id=1ENLl9J_BfHudLX--4mMZaZYxPLc5Qe-S)
+
+
+## Tercera clase
+
+En esta clase revisaremos la estructura base de nuestro proyecto en cual también veremos algunos nuevos tipos de widget, la jerarquia dentro de sus propiedades y como organizar nuestro proyecto de forma limpia
+
+* [Codigo Fuente](https://github.com/Alvardud/Curso-Flutter-online-2020/tree/tercera_clase) todo el codigo siempre se encuentra en la carpeta lib
+* [Videos de la clase](https://drive.google.com/open?id=1gNNsOsULfHgPa1eIXzbiid_RzHsMyfbU)
