@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(primarySwatch: Colors.deepOrange),
       debugShowCheckedModeBanner: false,
       home: Body(),
     );
@@ -54,8 +55,14 @@ class _BodyState extends State<Body> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    Icon(constant.iconsBottomNavigationBar[i]),
-                    Text(constant.titlesBottomNavigationBar[i])
+                    Icon(constant.iconsBottomNavigationBar[i],
+                        color:
+                            _pointer == i ? Colors.orange[700] : Colors.grey),
+                    Text(constant.titlesBottomNavigationBar[i],
+                        style: TextStyle(
+                            color: _pointer == i
+                                ? Colors.orange[700]
+                                : Colors.grey)),
                   ],
                 ),
               ),
