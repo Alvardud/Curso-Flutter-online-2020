@@ -44,3 +44,10 @@ En esta clase revisaremos la estructura base de nuestro proyecto en cual tambié
 
 * [Codigo Fuente](https://github.com/Alvardud/Curso-Flutter-online-2020/tree/tercera_clase) todo el codigo siempre se encuentra en la carpeta lib
 * [Videos de la clase](https://drive.google.com/open?id=1gNNsOsULfHgPa1eIXzbiid_RzHsMyfbU)
+
+# Cuarta clase
+
+En esta clase revisaremos como crear nuestros widgets personalizados, como también como estilizarlos
+
+* [Codigo Fuente](https://github.com/Alvardud/Curso-Flutter-online-2020/tree/cuarta_clase) Todo el codigo siempre se encuentra en la carpeta lib
+* [Videos de la clase](https://drive.google.com/open?id=180Tomyg-hsVvHw4dIqjagtbiPfyOWdVe)
