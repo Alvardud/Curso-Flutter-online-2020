@@ -51,3 +51,11 @@ En esta clase revisaremos como crear nuestros widgets personalizados, como tambi
 
 * [Codigo Fuente](https://github.com/Alvardud/Curso-Flutter-online-2020/tree/cuarta_clase) Todo el codigo siempre se encuentra en la carpeta lib
 * [Videos de la clase](https://drive.google.com/open?id=180Tomyg-hsVvHw4dIqjagtbiPfyOWdVe)
+
+# Quinta clase
+
+En esta clase revisaremos como hacer uso de recursos externos como fuentes, iconos...
+
+* [Codigo Fuente](https://github.com/Alvardud/Curso-Flutter-online-2020/tree/quinta_clase) Todo el codigo siempre se encuentra en la carpeta lib
+* [Videos de la clase](https://drive.google.com/open?id=1e-qWjPkB3uHxO1RrhVg8u3Z5xkiXfY1T)
+* [Recursos utilizados](https://drive.google.com/open?id=1xJXeG5qOjRFXpapK0OwseGfLGTOB0Nj7)
