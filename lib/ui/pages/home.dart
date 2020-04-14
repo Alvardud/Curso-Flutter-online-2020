@@ -3,11 +3,27 @@ import 'package:flutter/material.dart';
 //Vamos a separar toda la pantalla home en una clase distinta
 
 class Home extends StatelessWidget {
+
+  Widget _containerHeaderBottom(){
+    return Container(
+      color: Colors.orange.withOpacity(0.4),
+      height: 60.0,
+      child: Container(
+        height: 30.0,
+        decoration: BoxDecoration(
+          color:Colors.white,
+          borderRadius: BorderRadius.vertical(top:Radius.circular(30.0))
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
         _Header(),
+        _containerHeaderBottom(),
         _GeneralInformation(),
         _ListInformation(),
       ],
@@ -18,7 +34,22 @@ class Home extends StatelessWidget {
 //cuando creamos una clase, objeto, variable o funcion con la barra baja "_" antecediendo
 //es por que estamos creando un clase de tipo privada
 class _Header extends StatelessWidget {
-  const _Header({Key key}) : super(key: key);
+  Widget _circle(BuildContext context) {
+    return Container(
+      height: 200.0,
+      width: 200.0,
+      decoration: BoxDecoration(
+          color: Theme.of(context).primaryColor.withOpacity(0.4),
+          borderRadius: BorderRadius.circular(200.0)),
+    );
+  }
+
+  Widget _image() {
+    return Container(
+        height: 150.0,
+        width: 150.0,
+        child: Image.asset('assets/images/header1.png', fit: BoxFit.contain));
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +57,43 @@ class _Header extends StatelessWidget {
     return Container(
       //obtnemos el tamaño de nuestro dispositivo
       //gracias a MediaQuery
+      decoration: BoxDecoration(color: Colors.orange.withOpacity(0.4)),
+      width: MediaQuery.of(context).size.width,
       height: MediaQuery.of(context).size.height / 3 - 20,
+      child: Stack(
+        children: <Widget>[
+          Positioned(
+            left: -50.0,
+            top: -50,
+            child: _circle(context),
+          ),
+          Positioned(bottom: 0.0, right: 16.0, child: _image()),
+          Positioned(
+            top: 50.0,
+            left: 8.0,
+            child: Text(
+              'COVID-19 BOLIVIA',
+              style: TextStyle(
+                  color: Colors.white,
+                  fontFamily: 'CustomRoboto',
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18.0),
+            ),
+          ),
+          Positioned(
+            top: 100.0,
+            left: 8.0,
+            child: Text(
+              'App no oficial\nBolivia',
+              style: TextStyle(
+                  fontFamily: 'CustomRoboto',
+                  fontSize: 24,
+                  color: Colors.brown,
+                  fontWeight: FontWeight.bold),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
@@ -60,10 +127,10 @@ class _GeneralInformation extends StatelessWidget {
 }
 
 class _ListInformation extends StatelessWidget {
-  Widget _title() {
+  Widget _title(BuildContext context) {
     return Text(
       'Obten más información acerca del coronavirus',
-      style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+      style: Theme.of(context).textTheme.title,
     );
   }
 
@@ -98,7 +165,7 @@ class _ListInformation extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          _title(),
+          _title(context),
           ListView(
             shrinkWrap: true,
             children: <Widget>[
